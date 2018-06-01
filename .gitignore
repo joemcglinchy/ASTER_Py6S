@@ -1,0 +1,17 @@
+# Blacklist files/folders in same directory as the .gitignore file
+/*
+
+# Whitelist some files
+!.gitignore
+!README
+!CONTRIBUTORS
+!LICENCE
+!*.py
+!*.ipynb
+!/.ipynb_checkpoints
+!/bin
+!/examples/ASTERL1T_DN2REF.py
+!/examples/ASTERL1T_proc.py
+!/examples/end_to_end_ASTER_MODIS_atcor.py
+!/examples/sample_html.py
+!/jupyter_notebooks
